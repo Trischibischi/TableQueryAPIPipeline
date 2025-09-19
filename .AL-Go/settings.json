@@ -1,10 +1,16 @@
 {
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.3/.Modules/settings.schema.json",
   "country": "eu",
-  "appSourceCopMandatoryAffixes": [
-    "<affix>"
-  ],
-  "appFolders": [],
+  "appSourceCopMandatoryAffixes": ["<your-registered-affix>"],
+  "appFolders": ["App"],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "keyVaultName": "Co-OrgaDevCS",
+  "keyVaultCodesignCertificateName": "DevCodeSigningCert",
+  "deliverToAppSource": {
+    "productId": "<AppSource Product Id GUID>",
+    "mainAppFolder": "App",
+    "includeDependencies": ["*"],
+    "continuousDelivery": false
+  }
 }
