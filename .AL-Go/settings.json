@@ -2,14 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v7.3/.Modules/settings.schema.json",
   "country": "eu",
   "appSourceCopMandatoryAffixes": ["<your-registered-affix>"],
-  "appFolders": ["App"],
+  "appFolders": ["TableQueryApi"],
   "testFolders": [],
   "bcptTestFolders": [],
   "keyVaultName": "Co-OrgaDevCS",
   "keyVaultCodesignCertificateName": "DevCodeSigningCert",
   "deliverToAppSource": {
     "productId": "<AppSource Product Id GUID>",
-    "mainAppFolder": "App",
+    "mainAppFolder": "TableQueryApi",
     "includeDependencies": ["*"],
     "continuousDelivery": false
   }
